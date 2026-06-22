@@ -24,10 +24,13 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		args["preheck"] = true
 	}
 
-	res := Main(args)
-	b, _ := json.Marshal(res["body"])
-	fmt.Fprint(w, string(b))
-	w.WriteHeader(res["statusCode"].(int))
+	w.WriteHeader(200)
+	fmt.Fprint(w, r.URL.Query())
+
+	// res := Main(args)
+	// b, _ := json.Marshal(res["body"])
+	// w.WriteHeader(res["statusCode"].(int))
+	// fmt.Fprint(w, string(b))
 }
 
 const (

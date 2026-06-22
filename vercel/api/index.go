@@ -21,7 +21,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		"steam_id": r.URL.Query().Get("steam_id"),
 	}
 	if r.URL.Query().Has("precheck") {
-		args["preheck"] = true
+		args["precheck"] = true
 	}
 
 	log.Println("args", args)

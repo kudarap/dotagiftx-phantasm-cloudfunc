@@ -1,0 +1,525 @@
+[
+  {
+    "apihost": "https://faas-sgp1-18bc02ac.doserverless.co",
+    "namespace": "fn-e268c854-fb3b-4348-abb5-497c7085f9ed",
+    "packageVersions": {},
+    "actionVersions": {
+      "crawler/abaddon": {
+        "digest": "257afa69530deb6eea0ff7139d1ba6b95c2a76bc058f279a1b6fc707821c0b5e",
+        "version": "0.0.3"
+      },
+      "crawler/alchemist": {
+        "digest": "a8911df62b8ae714cd2d57a6346ea3b86bf7614c1f21e4aa71bb0f66ce7ee404",
+        "version": "0.0.3"
+      },
+      "crawler/ancientapparition": {
+        "digest": "2e9a6defcac17101ea76663ee2f8f0ab50a1817058693d81c1b519f9472228c2",
+        "version": "0.0.3"
+      },
+      "crawler/antimage": {
+        "digest": "93606d2186ccab8455f8da076bb5b44809bdfa14bbf9bebfbdc7dd2517e65524",
+        "version": "0.0.3"
+      },
+      "crawler/arcwarden": {
+        "digest": "8fc96b750edaac667eba3cc50e453c10e413621bfe75da608363372b29ed6df1",
+        "version": "0.0.3"
+      },
+      "crawler/axe": {
+        "digest": "f88d2613330c2c04cbcf80cf60be9dba450ed86b4942198cd26fcd9005690ac0",
+        "version": "0.0.3"
+      },
+      "crawler/bane": {
+        "digest": "da3869830b58ca4d76f18d61034f7ee40ed78c4b2dbd577957e71886b32ba2df",
+        "version": "0.0.3"
+      },
+      "crawler/batrider": {
+        "digest": "36bdbfc6d6639ad0530aa1d9b5b98d185ce338775dd6a554ea978b7c3ccf4c97",
+        "version": "0.0.3"
+      },
+      "crawler/beastmaster": {
+        "digest": "58bfc5d563ffd2cb609c75ee2972da480d5fc3c06397644a10bcbd27b59b7221",
+        "version": "0.0.3"
+      },
+      "crawler/bloodseeker": {
+        "digest": "32b6545a836e395d2f27ca3bd4a60b27dd5a8eebf9026ec162ff443e9572e620",
+        "version": "0.0.3"
+      },
+      "crawler/bountyhunter": {
+        "digest": "94e9dfc8331ddd9788b78063de9f29e5b1601ea9b7f89192f1b4e854aa2e5b8a",
+        "version": "0.0.3"
+      },
+      "crawler/brewmaster": {
+        "digest": "af1f003daa09e2ff94ac3f6bc796dd9b1208cb0c41da5232ab6b5c17dbe41668",
+        "version": "0.0.3"
+      },
+      "crawler/bristleback": {
+        "digest": "a7cb9deb1ccdc63489be14710ffe358dc80c56fcde7d6268dfd220410a15f63c",
+        "version": "0.0.3"
+      },
+      "crawler/broodmother": {
+        "digest": "023d637fe08b89b5a22590f4c751caa913cc19db02fa958cd9e8c502232eeea7",
+        "version": "0.0.3"
+      },
+      "crawler/centaur": {
+        "digest": "b640b02195c3913441c46a81692a06c1892a8eb6e150820ff1ce78a09967b000",
+        "version": "0.0.3"
+      },
+      "crawler/chen": {
+        "digest": "d98aefeefbdac7e61a24cdde066bce24328d494cb57abb7ac0acf872c6dfd27d",
+        "version": "0.0.3"
+      },
+      "crawler/clinkz": {
+        "digest": "76b35ade048164ff6cd5ced6f2ccf19e20e92aa1385c6d71e23bcd43bb391451",
+        "version": "0.0.3"
+      },
+      "crawler/clockwerk": {
+        "digest": "1cdd6c613161a0e894644bf65fe98fd93aedebec05535668da809781df3c8524",
+        "version": "0.0.3"
+      },
+      "crawler/crystalmaiden": {
+        "digest": "a54163d0e08044d713d635671f9bdb601a46a59e0d77c871fc7c2cf6fc2af0ae",
+        "version": "0.0.3"
+      },
+      "crawler/darkseer": {
+        "digest": "beefcbfee718517d9206fcc683b1759e0e9ba4b1e4d9fe4784d4f0b57eceaec8",
+        "version": "0.0.2"
+      },
+      "crawler/darkwillow": {
+        "digest": "710ac9691dc5cac33ff962feea460f7960b717b45182264751dd22ddaffdb35b",
+        "version": "0.0.2"
+      },
+      "crawler/dawnbreaker": {
+        "digest": "5696900f1e91cf7909122e61b6933347c05a2ed1f92d7c33b52dd92b23a1d038",
+        "version": "0.0.2"
+      },
+      "crawler/deathprophet": {
+        "digest": "ef0786bd7ae12091a1838b911b296f952e23f449ba6d6b13010f60cc4bd9190a",
+        "version": "0.0.2"
+      },
+      "crawler/disruptor": {
+        "digest": "a429e5131b3c3126fdada958ff518e980d1713e243b503d52a7c834c4029cdc2",
+        "version": "0.0.2"
+      },
+      "crawler/doombringer": {
+        "digest": "6b0bbd00d5e0cdec49ff3e21f6e6fbb8574b7e7c1b4e4a1e735bbbc54cd35663",
+        "version": "0.0.2"
+      },
+      "crawler/dragonknight": {
+        "digest": "9925c48b189d47108e75be29a92f849f5db3c765771308b9b702dc7a9aa03e02",
+        "version": "0.0.2"
+      },
+      "crawler/drowranger": {
+        "digest": "63b7369f98e750177a312b9ef5c975f18ed97c5f86e391390a18e732878148dc",
+        "version": "0.0.2"
+      },
+      "crawler/earthshaker": {
+        "digest": "99af826e9c4af22774a097201603f2c89df1252cfa898e8afc6217cde2739a68",
+        "version": "0.0.2"
+      },
+      "crawler/earthspirit": {
+        "digest": "0a44fd0d2f725a9ecc7f0fe5fbc104f04146bbd23448327087657fba3d3e8e80",
+        "version": "0.0.2"
+      },
+      "crawler/eldertitan": {
+        "digest": "9c333b556a8e88d687c5d9c01dead29e8dc1a06c5b826449812dbfd070d2945a",
+        "version": "0.0.2"
+      },
+      "crawler/emberspirit": {
+        "digest": "adf25ae5b84262df5bd60ef64f86dce5d7d885a4330e08894f9290de0ad91577",
+        "version": "0.0.2"
+      },
+      "crawler/enchantress": {
+        "digest": "a26386da69bcfdf5c8af7ad8b048a343a9e3e94a2778c403f0accac6444f6ada",
+        "version": "0.0.2"
+      },
+      "crawler/enigma": {
+        "digest": "b4fa8dae86291080e01581b2d3cfcb570a5c34eb0f95e89a529072dc0a14175c",
+        "version": "0.0.2"
+      },
+      "crawler/facelessvoid": {
+        "digest": "d157457fa97905fb2dc5ce54e4c0137e86cd4550d13d66282447e5614f32545f",
+        "version": "0.0.2"
+      },
+      "crawler/grimstroke": {
+        "digest": "9a00b552dd37af73dfd729d114196fba5874ac4bdf82ef85cdc52f42b95fa045",
+        "version": "0.0.2"
+      },
+      "crawler/gyrocopter": {
+        "digest": "765e9445aed188ac3a1ea248b9c514fcfd5a6cb4dbdee3ad09a9d2cfde5ca7a3",
+        "version": "0.0.2"
+      },
+      "crawler/hoodwink": {
+        "digest": "8b3e0ca6145674875b5c848364a08e6426462ce4a4fc96805d631550b3f53c02",
+        "version": "0.0.2"
+      },
+      "crawler/huskar": {
+        "digest": "8ce3a96d9ebf71ded6374ffba43035c3f7550c73dca1884426446f9d60a456cd",
+        "version": "0.0.2"
+      },
+      "crawler/invoker": {
+        "digest": "3fe8bdea32caa40c13988918523cf3f6c19f51b8e8d603094c2dd455cbe72cff",
+        "version": "0.0.2"
+      },
+      "crawler/io": {
+        "digest": "9dfdf673faf265ee9871acd50be897d9ddfbf51a13458665b3fa3a4d5ca71e30",
+        "version": "0.0.2"
+      },
+      "crawler/jakiro": {
+        "digest": "99e55d4b5ece79c24616f47f7de8e1fd8a3df1322b916e98bec5d98185388978",
+        "version": "0.0.2"
+      },
+      "crawler/juggernaut": {
+        "digest": "83b023006746e85e2a5748ec12600a313f64d328dfa2687e1cda3ed379a5d026",
+        "version": "0.0.2"
+      },
+      "crawler/keeperofthelight": {
+        "digest": "1c0e129f0a736bd6ab5258ffc54817333782b2affe644aaad4817afa6b34356f",
+        "version": "0.0.2"
+      },
+      "crawler/kez": {
+        "digest": "7360c1c1ef22cbd3cb720a345d21de4a99ebf1c5316a5effbde2da961437a8ff",
+        "version": "0.0.2"
+      },
+      "crawler/kunkka": {
+        "digest": "e6d6667b3e820ea81f980559755722fb0693159dcd1d94b99907cb2fb2a2c331",
+        "version": "0.0.2"
+      },
+      "crawler/largo": {
+        "digest": "c36a8428c5b1c6681014cdec09981f55da702b28ba9fc5f3dd89571b4cf9e066",
+        "version": "0.0.2"
+      },
+      "crawler/legioncommander": {
+        "digest": "6547c4a0841afd0c0bc06cdffb1d6cfd0fa2e35e44d6f5655e1d3720037662c0",
+        "version": "0.0.2"
+      },
+      "crawler/leshrac": {
+        "digest": "437c443f8b271f76f65df5ff1d6b18335ddc3154a7fc253b0dba7bfe62f8eaff",
+        "version": "0.0.2"
+      },
+      "crawler/lich": {
+        "digest": "2de7fbbea22494f2bb4058f57ca486ba0cf4f47ea53fc76751064bd1e9dd821b",
+        "version": "0.0.2"
+      },
+      "crawler/lifestealer": {
+        "digest": "4fbde4094a965b3e555746658d2a930964d555007c45d0bfd469d4f8e2685558",
+        "version": "0.0.2"
+      },
+      "crawler/lina": {
+        "digest": "899d9046001b5b7414f58260b4bc08cbece09d4fa857c1e9d10f4f3a2b5a576a",
+        "version": "0.0.2"
+      },
+      "crawler/lion": {
+        "digest": "9fca572415ab1befacf4572c197001f45a5e1600cb84e1476dc40cd7e6509cd8",
+        "version": "0.0.2"
+      },
+      "crawler/lonedruid": {
+        "digest": "75a7ef7c4ad0fdd7ed3124003be434b225430567a27ae4b24e25e680d644b18e",
+        "version": "0.0.2"
+      },
+      "crawler/luna": {
+        "digest": "5df0acb8511f9619d374f216113274be3794f550a9b8ba3438cc6edb75709879",
+        "version": "0.0.2"
+      },
+      "crawler/lycan": {
+        "digest": "5403b5a6a7f378e42c5628a2f933b4d7f6b1cecb81a86af16d07a047c2ce0bce",
+        "version": "0.0.2"
+      },
+      "crawler/magnus": {
+        "digest": "923031887ea926d9731d69dcbaad78a00bb1d9e10fd42156ea204f7a2b3ee776",
+        "version": "0.0.2"
+      },
+      "crawler/marci": {
+        "digest": "3a0538d0566fb8034392ec4bb6060691b11524972140e846e496fc322173301a",
+        "version": "0.0.2"
+      },
+      "crawler/mars": {
+        "digest": "d3208b4e63a748f977c448c108780b77ed9ef23dd8b35cefad3a57d9f16f2ef1",
+        "version": "0.0.2"
+      },
+      "crawler/medusa": {
+        "digest": "13c8a2c5fed9b794f994bde51a3d9c6864fb5793bafe66c0c69994fe89f08f37",
+        "version": "0.0.2"
+      },
+      "crawler/meepo": {
+        "digest": "c924f99807797ac1a1b70f4ae4cec2f386ef3460d587025b618577d26c1c6c4f",
+        "version": "0.0.2"
+      },
+      "crawler/mirana": {
+        "digest": "4e80ce9b234126cfc2ba53ab10cfde37a7aed8a7fffb194505cb2df4fa0f9c3a",
+        "version": "0.0.2"
+      },
+      "crawler/monkeyking": {
+        "digest": "5ff837cee2743c50de89b5b4d4fa66ac72a9e621e7ad3a0448028c66bb6b706c",
+        "version": "0.0.2"
+      },
+      "crawler/morphling": {
+        "digest": "8b442f39acf7e8c094318954074720586085bf60810f54fe1eec23c2a23a5319",
+        "version": "0.0.2"
+      },
+      "crawler/muerta": {
+        "digest": "34356ca2f1a632538e9ea0612bc295e17c152026167af425ab7e7a8c1d3aefd9",
+        "version": "0.0.2"
+      },
+      "crawler/nagasiren": {
+        "digest": "5147901771e3de68fefd9f9e1bec88157de88ad84bf068c845661930a84b85c5",
+        "version": "0.0.2"
+      },
+      "crawler/naturesprophet": {
+        "digest": "1283ee41db99b9926d169060893fd81b101e52e6904257b843891a822a3f167c",
+        "version": "0.0.2"
+      },
+      "crawler/necrophos": {
+        "digest": "29d0a0b7a390bf97fa8bd2a154fdb5beeee5a8ff0f2fce2195cacd09bac69e4a",
+        "version": "0.0.2"
+      },
+      "crawler/nightstalker": {
+        "digest": "e04a84c8dad967400a79ce0f3b04d60b901686b2fa61e4b415b2770ba373cf82",
+        "version": "0.0.2"
+      },
+      "crawler/nyxassassin": {
+        "digest": "f15f924af067aa15c471e555195dc3bb0ac43b20be444cd4ace629f021013e24",
+        "version": "0.0.2"
+      },
+      "crawler/ogremagi": {
+        "digest": "de756aabb40fafbb4c99600efa7f873b192c2ef453893d4d9486535a6463a7a0",
+        "version": "0.0.2"
+      },
+      "crawler/omniknight": {
+        "digest": "44c34d79e21e16bda221c7b7e30475129863d1fcdb91b3f5d1559c62e52684fd",
+        "version": "0.0.2"
+      },
+      "crawler/oracle": {
+        "digest": "648fb15f148c726072fcaeee164bacf1aa0be72ddda975395e63a098cb50f881",
+        "version": "0.0.2"
+      },
+      "crawler/outworlddestroyer": {
+        "digest": "1501f12e84b24b68fc6deb6d4217d67bb6a0ab1b08f5c38ca55a833083a022a4",
+        "version": "0.0.2"
+      },
+      "crawler/pangolier": {
+        "digest": "58a947c28bf1a879e425a7cc6932e39449f412c4c59188c23a8d8136297efe88",
+        "version": "0.0.2"
+      },
+      "crawler/phantomassassin": {
+        "digest": "2254e08bc45efb87b33bf7dfda58964c2886283ced3bd733c11cdac07ccf77dc",
+        "version": "0.0.2"
+      },
+      "crawler/phantomlancer": {
+        "digest": "9a991d480df80f480924e0cca1b34c21abb538e26b01abc7f0fe2cbd299d3d59",
+        "version": "0.0.2"
+      },
+      "crawler/phoenix": {
+        "digest": "95c5d229cafd92ca2fb3007ec457d151d378f21a76f19704f65d12dbab62c24f",
+        "version": "0.0.2"
+      },
+      "crawler/primalbeast": {
+        "digest": "f9af236f256151f37022cf6ea84969930563ba23bffdc82dfe4248c7ae72b04d",
+        "version": "0.0.2"
+      },
+      "crawler/puck": {
+        "digest": "73c2c219ed544a3da297ada79c7652e45b0fe8f946217dccb7637367f9de8428",
+        "version": "0.0.2"
+      },
+      "crawler/pudge": {
+        "digest": "d0af023fe68dbb2eb3876f4fab7ed95f9aeac9927772972465738c0641b2cf16",
+        "version": "0.0.2"
+      },
+      "crawler/pugna": {
+        "digest": "b97a1856b555d8e70048b849444f24717fbecfe3f28c817636038bd32d3f55a1",
+        "version": "0.0.2"
+      },
+      "crawler/queenofpain": {
+        "digest": "d5c9d156b62f5445ccbe98b4f3952d2052770c87e5ad28406ef18e658510c056",
+        "version": "0.0.2"
+      },
+      "crawler/razor": {
+        "digest": "125771ca47d55c1b54bbf47f8ffd99a963d5a6fbad35efca4aff7925c79de41c",
+        "version": "0.0.2"
+      },
+      "crawler/riki": {
+        "digest": "f1e9be3cf8f56fff59994ff602a5c7c52f4a3451d2e3fd93e0e74e6be0d2be00",
+        "version": "0.0.2"
+      },
+      "crawler/ringmaster": {
+        "digest": "e7fc8c2d3fa724e867ea429c7fd5a501ce85dc61d8571a13627645a66f6a293e",
+        "version": "0.0.2"
+      },
+      "crawler/rubick": {
+        "digest": "b667c272cec034cd39cbfbb0fe5eed1f4dc0fd5c12138f7c59b15dd4a6a070bc",
+        "version": "0.0.2"
+      },
+      "crawler/sandking": {
+        "digest": "0fdae570333f7957926e4ba39e12d52995d2713d53dcc3157a91d5366d83170b",
+        "version": "0.0.2"
+      },
+      "crawler/shadowdemon": {
+        "digest": "00e1ce28bb020f5496df41a72e680c9751e2d588b7cbdedbcbb022c52e260af2",
+        "version": "0.0.2"
+      },
+      "crawler/shadowfiend": {
+        "digest": "73f12bd640efff3715162078cf4fa98c00fc7e1b8c7e26a1ffa87848d2ece2b9",
+        "version": "0.0.2"
+      },
+      "crawler/shadowshaman": {
+        "digest": "3ff30a057f2e5e25d869e9d266beb0a60eff881b4e59d6559122d27726285b6b",
+        "version": "0.0.2"
+      },
+      "crawler/silencer": {
+        "digest": "4ba23d65212a1a05a748cb94faa8e705633be918a7df562716c3aa3e77b64244",
+        "version": "0.0.2"
+      },
+      "crawler/skywrathmage": {
+        "digest": "f51ccab18af5c4648f46f253d6bd8fce84905f7d8d354c61857b47558a45d6f3",
+        "version": "0.0.2"
+      },
+      "crawler/slark": {
+        "digest": "ae46274ec88595d203ddf69c847267f74f2a5b5f3bdafa3f3e2a0a91c2ca61a9",
+        "version": "0.0.2"
+      },
+      "crawler/snapfire": {
+        "digest": "5a3e123f916e093293a6769f05eef83b8597d21ddc3f0249fc409367f9477730",
+        "version": "0.0.2"
+      },
+      "crawler/sniper": {
+        "digest": "c90ee0ec0a6c7ef1d948d6f69cc9619eca69792750e2196c1e780fe60c4799c9",
+        "version": "0.0.2"
+      },
+      "crawler/spectre": {
+        "digest": "73b6f2de92b5b508592f62ea13b5852e49d5db2115fb4bbd1765bc7ac8d83095",
+        "version": "0.0.2"
+      },
+      "crawler/spiritbreaker": {
+        "digest": "977548856f25cccec0a08923916e79b06587e0b6b93e2fb83d66373007d03211",
+        "version": "0.0.2"
+      },
+      "crawler/stormspirit": {
+        "digest": "dd4d363b4851ec2bfabd3742a43d4a6c1b33c1ffd8fac89387ef3823b5f58f83",
+        "version": "0.0.2"
+      },
+      "crawler/sven": {
+        "digest": "6c2c32c22ce3fdd9dcd260932dbb5fad644c84f98447dd51f5f0305d4f5a4744",
+        "version": "0.0.2"
+      },
+      "crawler/techies": {
+        "digest": "5488275bcd5851217eaff11b96ce45062480d75cf93aa111dd1eaa534cab451d",
+        "version": "0.0.2"
+      },
+      "crawler/templarassassin": {
+        "digest": "b0d300003bf3794e6a4ef65cf10a56d98c47180368ca822ad3987c385cff05af",
+        "version": "0.0.2"
+      },
+      "crawler/terrorblade": {
+        "digest": "e145333e05260e935136f5b7be72147f88b547540e8ab015e470e8c1acfe4ee8",
+        "version": "0.0.2"
+      },
+      "crawler/tidehunter": {
+        "digest": "52d9845dc42617de1c11dbfdd6a4ca45651ef7f85c9559bf6dd0395eb96ef728",
+        "version": "0.0.2"
+      },
+      "crawler/timbersaw": {
+        "digest": "3b8ea501833b338751f8956e18ba7a535861ae2a40d8aa290019f0549000be1b",
+        "version": "0.0.7"
+      },
+      "crawler/tinker": {
+        "digest": "10a3db7ef7f5ce7d48eb21c07be4169255c67f436b6cabfcb9fdec9c863f701c",
+        "version": "0.0.2"
+      },
+      "crawler/tiny": {
+        "digest": "b3f6ad01e34f4061e250fb7d80a2813e6d69828331338bbb2642c122978ba028",
+        "version": "0.0.2"
+      },
+      "crawler/treant": {
+        "digest": "9aa65b3b260c2eae3876320af1ef0a86f3ba2f34741331afa5e99f79b3f6486c",
+        "version": "0.0.2"
+      },
+      "crawler/trollwarlord": {
+        "digest": "138b1923f955436f32703d183826e67e1126ffe499cae5a269bdc65b90346e0c",
+        "version": "0.0.2"
+      },
+      "crawler/tusk": {
+        "digest": "0bb36fee102e6c6449bbd14ce19b51ab1c73a4da21fc3dd8c5ffaee5200ce525",
+        "version": "0.0.2"
+      },
+      "crawler/underlord": {
+        "digest": "36117a99532feb3fa671d8ce24fb3f2ec4791e229e7562669aa57e294d40f1ae",
+        "version": "0.0.2"
+      },
+      "crawler/undying": {
+        "digest": "465799660fc9123a29cc4c288a54cf9404674f7682d0d1b0e86b31dc5d89446a",
+        "version": "0.0.2"
+      },
+      "crawler/ursa": {
+        "digest": "dee30e12d04b4ff379df46e3bc8113bbbc0698d18657fbfabb6c45e1e1b98179",
+        "version": "0.0.2"
+      },
+      "crawler/vengefulspirit": {
+        "digest": "b1b7177e145a7e1dc9e4f09aa6bb39a37c3ffc685728838760400b379b98100e",
+        "version": "0.0.2"
+      },
+      "crawler/venomancer": {
+        "digest": "fda968071e9d11d8e70546bf2aec76841accaa48b614131fb952d43f1c109ad1",
+        "version": "0.0.2"
+      },
+      "crawler/viper": {
+        "digest": "4bae1ac2daba04734345e3ebee208eb4eb4d7e3a621d087a7ed24d5f9bfbeca2",
+        "version": "0.0.2"
+      },
+      "crawler/visage": {
+        "digest": "f15e530f6b37572c28fc4e4282f8d0dfed1c8c209dc320cdbd6b2ebf02486293",
+        "version": "0.0.2"
+      },
+      "crawler/voidspirit": {
+        "digest": "6a2fd1377271c2514ea34f069b964da148e15aa3ab18cee227d36aaad6714d1b",
+        "version": "0.0.2"
+      },
+      "crawler/warlock": {
+        "digest": "98fc1eb99aedaf2b957af3adec1bf9e449db22718e5f7eec6b2e6b74ae06e060",
+        "version": "0.0.2"
+      },
+      "crawler/weaver": {
+        "digest": "eb91bbc68d041ab6bb412c7f3ac08a10bcf773f00770a234737da731ba618c96",
+        "version": "0.0.2"
+      },
+      "crawler/windrunner": {
+        "digest": "c1cce9c13248fb61e115f93428162ba7bf0408acbc2211f231d5b6c5fb0d1eb2",
+        "version": "0.0.2"
+      },
+      "crawler/winterwyvern": {
+        "digest": "f36890ee847fca0173cc48f36824baeb692d6967dcc9ecd3fc4b2ac55b366a26",
+        "version": "0.0.2"
+      },
+      "crawler/witchdoctor": {
+        "digest": "215b6a1264b0a6534ee73208fe9bf7268543e9d00805fad58fbde7c30454e0d3",
+        "version": "0.0.2"
+      },
+      "crawler/wraithking": {
+        "digest": "9917b605010d1ff1170f474c2c3f39028976aed3fc1a07dbf21a494ed8faca68",
+        "version": "0.0.2"
+      },
+      "crawler/zeus": {
+        "digest": "44104b17b218283a10617629c0ff798ea98b28795186bdfeb8aa8d2251edac60",
+        "version": "0.0.2"
+      },
+      "crawlertest/nevermore": {
+        "digest": "2880ce3d0a40a122ad6836c91ddf3db626d792598e29ec86ef4160b5d41d3243",
+        "version": "0.0.1"
+      },
+      "crawlertest/ostarion": {
+        "digest": "35bda19eadc22c5509b6813713a5bebcc89cd0c7e20d3b00798db8fd1b575dfa",
+        "version": "0.0.1"
+      },
+      "crawlertest/strygwyr": {
+        "digest": "f8f08180b195a98e9f67c55c2846b80a452bab1908dec98b6346d23213db9519",
+        "version": "0.0.1"
+      },
+      "crawlertest/traxex": {
+        "digest": "0934b873efc86d86b823cacfd340cdc91f8b910bbfdc43031c0a6889f141e4aa",
+        "version": "0.0.1"
+      },
+      "crawlertest/zharvakko": {
+        "digest": "7c767d58dfcddaf1679d4335abe7fa9e897732ea24a83b8f66760997a2808d77",
+        "version": "0.0.1"
+      }
+    }
+  }
+]

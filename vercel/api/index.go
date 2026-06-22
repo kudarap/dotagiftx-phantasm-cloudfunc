@@ -24,13 +24,11 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		args["preheck"] = true
 	}
 
-	w.WriteHeader(200)
-	fmt.Fprint(w, args)
-
-	// res := Main(args)
-	// b, _ := json.Marshal(res["body"])
-	// w.WriteHeader(res["statusCode"].(int))
-	// fmt.Fprint(w, string(b))
+	log.Println("args", args)
+	res := Main(args)
+	b, _ := json.Marshal(res["body"])
+	w.WriteHeader(res["statusCode"].(int))
+	fmt.Fprint(w, string(b))
 }
 
 const (
@@ -49,7 +47,7 @@ var (
 	secret     string
 )
 
-func Main(args map[string]interface{}) map[string]interface{} {
+func Main(args map[string]any) map[string]any {
 	log.Println("starting phantasm...")
 	if err := loadConfig(); err != nil {
 		return resp(http.StatusInternalServerError, err)

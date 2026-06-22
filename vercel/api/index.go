@@ -22,8 +22,8 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		"precheck": r.URL.Query().Has("precheck"),
 	}
 
-	v, _ := json.Marshal(Main(args))
-	fmt.Fprint(w, v)
+	b, _ := json.Marshal(Main(args))
+	fmt.Fprint(w, string(b))
 }
 
 const (

@@ -25,7 +25,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	w.WriteHeader(200)
-	fmt.Fprint(w, r.URL.Query())
+	fmt.Fprint(w, args)
 
 	// res := Main(args)
 	// b, _ := json.Marshal(res["body"])

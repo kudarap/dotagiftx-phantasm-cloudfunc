@@ -19,8 +19,11 @@ import (
 func Handler(w http.ResponseWriter, r *http.Request) {
 	args := map[string]any{
 		"steam_id": r.URL.Query().Get("steam_id"),
-		"precheck": r.URL.Query().Has("precheck"),
 	}
+	if r.URL.Query().Has("precheck") {
+		args["preheck"] = true
+	}
+
 	res := Main(args)
 	b, _ := json.Marshal(res["body"])
 	fmt.Fprint(w, string(b))

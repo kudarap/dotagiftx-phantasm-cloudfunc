@@ -21,7 +21,9 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		"steam_id": r.URL.Query().Get("steam_id"),
 		"precheck": r.URL.Query().Has("precheck"),
 	}
-	fmt.Fprint(w, Main(args))
+
+	v, _ := json.Marshal(Main(args))
+	fmt.Fprint(w, v)
 }
 
 const (
